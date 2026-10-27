@@ -1,0 +1,127 @@
+{
+  "identifier" : "C4B1A001",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "4.99",
+      "familyShareable" : false,
+      "internalID" : "C4B1A011",
+      "localizations" : [
+        {
+          "description" : "Ten additional handcrafted chambers and the Brushed Steel cabin finish.",
+          "displayName" : "Forbidden Sector",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "revolt_cabino.forbidden_sector",
+      "referenceName" : "Forbidden Sector",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "C4B1A012",
+      "localizations" : [
+        {
+          "description" : "5 hint credits.",
+          "displayName" : "Small Analysis Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "revolt_cabino.hints_5",
+      "referenceName" : "Small Analysis Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "C4B1A013",
+      "localizations" : [
+        {
+          "description" : "15 hint credits.",
+          "displayName" : "Medium Analysis Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "revolt_cabino.hints_15",
+      "referenceName" : "Medium Analysis Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "6.99",
+      "familyShareable" : false,
+      "internalID" : "C4B1A014",
+      "localizations" : [
+        {
+          "description" : "40 hint credits.",
+          "displayName" : "Large Analysis Pack",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "revolt_cabino.hints_40",
+      "referenceName" : "Large Analysis Pack",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

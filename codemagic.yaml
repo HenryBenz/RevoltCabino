@@ -1,0 +1,57 @@
+# Подпись идёт через Code signing identities в Codemagic, как в UI-workflow.
+# CERTIFICATE_PRIVATE_KEY больше не нужен.
+#
+# Один раз в Codemagic:
+# Team settings → codemagic.yaml settings → Code signing identities
+# 1. iOS certificates → Generate certificate → Apple Distribution
+#    API key: RevoltCabino
+# 2. iOS provisioning profiles → Fetch profiles → App Store
+#    для com.revoltcabino.revoltCabinoApp
+# Если Apple пишет, что Distribution-сертификатов уже 3:
+# https://developer.apple.com/account/resources/certificates/list
+
+workflows:
+  ios-release:
+    name: iOS App Store Connect Release
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: RevoltCabino
+    environment:
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.revoltcabino.revoltCabinoApp
+      vars:
+        BUNDLE_ID: com.revoltcabino.revoltCabinoApp
+        XCODE_PROJECT: ios/Runner.xcodeproj
+        XCODE_SCHEME: Runner
+      flutter: stable
+      xcode: latest
+    scripts:
+      - name: Get Flutter packages
+        script: flutter pub get
+      - name: Prepare iOS build files
+        script: flutter build ios --config-only --release
+      - name: Set up code signing
+        script: xcode-project use-profiles
+      - name: Increment build number
+        script: |
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-testflight-build-number "$BUNDLE_ID" --platform IOS || echo 0)
+          NEW_BUILD_NUMBER=$((LATEST_BUILD_NUMBER + 1))
+          echo "Using build number $NEW_BUILD_NUMBER"
+          echo "NEW_BUILD_NUMBER=$NEW_BUILD_NUMBER" >> "$CM_ENV"
+      - name: Build IPA
+        script: |
+          xcode-project build-ipa \
+            --project "$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME" \
+            --archive-xcargs "CURRENT_PROJECT_VERSION=$NEW_BUILD_NUMBER FLUTTER_BUILD_NUMBER=$NEW_BUILD_NUMBER"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        submit_to_app_store: false

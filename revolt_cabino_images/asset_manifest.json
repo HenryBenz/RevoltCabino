@@ -1,0 +1,146 @@
+[
+  {
+    "file": "bg_chambers_graphite.png",
+    "width": 1440,
+    "height": 3120,
+    "transparent": false
+  },
+  {
+    "file": "bg_gameplay_graphite.png",
+    "width": 1440,
+    "height": 3120,
+    "transparent": false
+  },
+  {
+    "file": "bg_home_graphite.png",
+    "width": 1440,
+    "height": 3120,
+    "transparent": false
+  },
+  {
+    "file": "bg_store_graphite.png",
+    "width": 1440,
+    "height": 3120,
+    "transparent": false
+  },
+  {
+    "file": "illustration_analysis_core.png",
+    "width": 1024,
+    "height": 1024,
+    "transparent": true
+  },
+  {
+    "file": "illustration_cabino_closed.png",
+    "width": 1536,
+    "height": 1536,
+    "transparent": true
+  },
+  {
+    "file": "illustration_cabino_open.png",
+    "width": 1536,
+    "height": 1536,
+    "transparent": true
+  },
+  {
+    "file": "illustration_cabino_steel.png",
+    "width": 1536,
+    "height": 1536,
+    "transparent": true
+  },
+  {
+    "file": "illustration_forbidden_sector.png",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "object_cargo.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_exit_locked.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_exit_ready.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_gate_closed.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_gate_open.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_laser_emitter.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_magnet_off.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_magnet_on.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_memory_fragment.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_plate_active.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_plate_inactive.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "object_player.png",
+    "width": 512,
+    "height": 512,
+    "transparent": true
+  },
+  {
+    "file": "texture_brushed_steel.png",
+    "width": 1024,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "tile_floor.png",
+    "width": 512,
+    "height": 512,
+    "transparent": false
+  },
+  {
+    "file": "tile_wall.png",
+    "width": 512,
+    "height": 512,
+    "transparent": false
+  }
+]

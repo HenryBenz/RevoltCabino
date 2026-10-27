@@ -1,0 +1,217 @@
+{
+  "id": "c26",
+  "chapterId": "revolt",
+  "number": 26,
+  "title": "Held Beam",
+  "width": 7,
+  "height": 9,
+  "walls": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      6,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      8
+    ]
+  ],
+  "playerStart": [
+    1,
+    1
+  ],
+  "cargo": [
+    {
+      "id": "c1",
+      "position": [
+        4,
+        3
+      ]
+    }
+  ],
+  "exit": [
+    5,
+    3
+  ],
+  "exitRequiredPlateIds": [],
+  "plates": [],
+  "gates": [],
+  "magneticPads": [
+    [
+      4,
+      3
+    ]
+  ],
+  "magnetsInitiallyEnabled": true,
+  "laserEmitters": [
+    {
+      "id": "l1",
+      "position": [
+        5,
+        6
+      ],
+      "direction": "up"
+    }
+  ],
+  "memoryFragment": [
+    5,
+    4
+  ],
+  "initialGravity": "down",
+  "efficiencyTarget": 5,
+  "tutorialId": null,
+  "curatedHints": [
+    "Set gravity RIGHT.",
+    "Set gravity DOWN.",
+    "Turn magnets OFF. Anchored cargo will move with gravity.",
+    "Set gravity RIGHT.",
+    "Set gravity UP. You will reach the exit."
+  ],
+  "referenceSolution": [
+    "right",
+    "down",
+    "magnet",
+    "right",
+    "up"
+  ],
+  "mechanicFocus": "Combined"
+}
