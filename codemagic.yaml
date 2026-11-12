@@ -31,7 +31,7 @@ workflows:
       - name: Get Flutter packages
         script: flutter pub get
       - name: Prepare iOS build files
-        script: flutter build ios --config-only --release
+        script: flutter build ios --config-only --release --no-codesign
       - name: Set up code signing
         script: xcode-project use-profiles
       - name: Increment build number
