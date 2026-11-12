@@ -1,0 +1,54 @@
+Running `(cd /Users/andrejparovik/.pub-cache/hosted/pub.dev/objective_c-9.5.0/; TMPDIR=/var/folders/kh/k3hw003163q97mqpzh9qvlrc0000gn/T/ CCACHE_DIR=/var/folders/kh/k3hw003163q97mqpzh9qvlrc0000gn/T/cursor-sandbox-cache/57bafbf490688b08edd66c7c25dbad71/ccache PATH=/Users/andrejparovik/development/flutter/bin:/Users/andrejparovik/development/flutter/bin:/Users/andrejparovik/development/flutter/bin:/Users/andrejparovik/development/flutter/bin:/Users/andrejparovik/development/flutter/bin:/Users/andrejparovik/development/flutter/bin:/Users/andrejparovik/development/flutter/bin:/Users/andrejparovik/.local/node/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Applications/Cursor.app/Contents/Resources/app/node_modules/@vscode/ripgrep/bin:/Users/andrejparovik/.local/node/bin:/Users/andrejparovik/.unity/bin HOME=/Users/andrejparovik NUGET_PACKAGES=/var/folders/kh/k3hw003163q97mqpzh9qvlrc0000gn/T/cursor-sandbox-cache/57bafbf490688b08edd66c7c25dbad71/nuget /Users/andrejparovik/development/flutter/bin/cache/dart-sdk/bin/dart --packages=/Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/package_config.json /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/objective_c/7ad245dadc/hook.dill --config=/Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/objective_c/7ad245dadc/input.json )`.
+INFO: 2026-11-12 13:19:54.584645: Using compiler /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang from BuildInput.cCompiler.cc.
+
+INFO: 2026-11-12 13:19:54.588566: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/andrejparovik/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/include/dart_api_dl.c -fpic -gline-tables-only -I src -o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-11-12 13:19:54.590218: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk -target arm64-apple-darwin -mmacos-version-min=13 -c /Users/andrejparovik/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/objective_c.c -fpic -gline-tables-only -I src -o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.c.o
+
+INFO: 2026-11-12 13:19:54.590539: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/andrejparovik/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/objective_c.m -fpic -gline-tables-only -I src -o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.m.o
+
+ream_adapter.m.o
+
+INFO: 2026-11-12 13:19:54.590671: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/andrejparovik/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/observer.m -fpic -gline-tables-only -I src -o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/observer.m.o
+INFO: 2026-11-12 13:19:54.590775: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/andrejparovik/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/ns_number.m -fpic -gline-tables-only -I src -o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/ns_number.m.o
+
+INFO: 2026-11-12 13:19:54.590997: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk -target arm64-apple-darwin -mmacos-version-min=13 -x objective-c -fobjc-arc -c /Users/andrejparovik/.pub-cache/hosted/pub.dev/objective_c-9.5.0/src/objective_c_bindings_generated.m -fpic -gline-tables-only -I src -o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-11-12 13:19:54.687167: 
+INFO: 2026-11-12 13:19:54.687465: 
+INFO: 2026-11-12 13:19:54.687554: Generated /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.c.o
+
+INFO: 2026-11-12 13:19:54.688647: 
+INFO: 2026-11-12 13:19:54.689006: 
+INFO: 2026-11-12 13:19:54.689024: Generated /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/include/dart_api_dl.c.o
+
+INFO: 2026-11-12 13:19:54.702101: 
+INFO: 2026-11-12 13:19:54.702148: 
+INFO: 2026-11-12 13:19:54.702158: Generated /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/observer.m.o
+
+INFO: 2026-11-12 13:19:54.710403: 
+INFO: 2026-11-12 13:19:54.710485: 
+INFO: 2026-11-12 13:19:54.710514: Generated /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/protocol.m.o
+
+INFO: 2026-11-12 13:19:54.953544: 
+INFO: 2026-11-12 13:19:54.953588: 
+INFO: 2026-11-12 13:19:54.953599: Generated /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/ns_number.m.o
+
+INFO: 2026-11-12 13:19:54.961243: 
+INFO: 2026-11-12 13:19:54.961273: 
+INFO: 2026-11-12 13:19:54.961283: Generated /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/input_stream_adapter.m.o
+
+INFO: 2026-11-12 13:19:54.961378: 
+INFO: 2026-11-12 13:19:54.961390: 
+INFO: 2026-11-12 13:19:54.961399: Generated /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.m.o
+
+INFO: 2026-11-12 13:19:54.998883: 
+INFO: 2026-11-12 13:19:54.998915: 
+INFO: 2026-11-12 13:19:54.998930: Generated /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c_bindings_generated.m.o
+
+INFO: 2026-11-12 13:19:54.999290: Running: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -shared -Wl,-encryptable -undefined dynamic_lookup -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk -target arm64-apple-darwin -mmacos-version-min=13 /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/include/dart_api_dl.c.o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.c.o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/input_stream_adapter.m.o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c.m.o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/observer.m.o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/ns_number.m.o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/protocol.m.o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/obj/src/objective_c_bindings_generated.m.o -o /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/objective_c.dylib
+
+INFO: 2026-11-12 13:19:55.034569: 
+INFO: 2026-11-12 13:19:55.034629: 
+INFO: 2026-11-12 13:19:55.034638: Generated /Users/andrejparovik/Desktop/RevoltCabino/.dart_tool/hooks_runner/shared/objective_c/build/7ad245dadc/objective_c.dylib
+
